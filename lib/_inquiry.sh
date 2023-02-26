@@ -3,7 +3,7 @@
 get_mysql_root_password() {
   
   print_banner
-  printf "${WHITE} 💻 Insira senha padrão para o sistema (senha root mysql):${GRAY_LIGHT}"
+  printf "${WHITE} 💻contraceña para bace de datos (senha root mysql):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " mysql_root_password
 }
@@ -11,7 +11,7 @@ get_mysql_root_password() {
 get_instancia_add() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o nome da empresa a ser configurada (Utilizar Letras minusculas):${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite nombre de su empresa (Utilizar Letras minusculas):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " instancia_add
 }
@@ -19,7 +19,7 @@ get_instancia_add() {
 get_max_whats() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o numero maximo de conexões que a empresa ${instancia_add} poderá cadastrar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite numero maximo de conecciones de whatsapp ${instancia_add} poderá cadastrar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " max_whats
 }
@@ -27,7 +27,7 @@ get_max_whats() {
 get_max_user() {
   
   print_banner
-  printf "${WHITE} 💻 Digite o numero maximo de atendentes que a empresa ${instancia_add} poderá cadastrar:${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite numero de colaboradores  ${instancia_add} poderá cadastrar:${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " max_user
 }
