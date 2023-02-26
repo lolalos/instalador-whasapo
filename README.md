@@ -23,7 +23,7 @@ Cuando finalice la instalación, simplemente inicie sesión con los datos predet
 (USAR SOMENTE PARA PRIMEIRA INSTALAÇÃO):
 
 ```bash
-sudo apt install -y git && git clone https://github.com/lolalos/crmwhsapo-phpmyadmin.git instalador && sudo chmod -R 777 ./instalador && cd ./instalador && sudo ./install_primaria
+sudo apt install -y git && git clone https://github.com/lolalos/instalador-whasapo instalador && sudo chmod -R 777 ./instalador && cd ./instalador && sudo ./install_primaria
 ```
 
 paso siguiente:
