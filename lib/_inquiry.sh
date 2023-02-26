@@ -3,7 +3,7 @@
 get_mysql_root_password() {
   
   print_banner
-  printf "${WHITE} 💻contraceña para bace de datos (senha root mysql):${GRAY_LIGHT}"
+  printf "${WHITE} 💻contraceña para bace de datos ( root mysql):${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " mysql_root_password
 }
@@ -51,7 +51,7 @@ get_backend_url() {
 get_frontend_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta do FRONTEND para a ${instancia_add}; Ex: 3000 A 3999 ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite a puerto do FRONTEND para a ${instancia_add}; Ex: 3000 A 3999 ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " frontend_port
 }
@@ -60,7 +60,7 @@ get_frontend_port() {
 get_backend_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta do BACKEND para esta instancia; Ex: 4000 A 4999 ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite a puerto do BACKEND para esta instancia; Ex: 4000 A 4999 ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " backend_port
 }
@@ -68,7 +68,7 @@ get_backend_port() {
 get_phpmyadmin_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta do PHPMYADMIN  para a ${instancia_add}; Ex: 8080 ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite a puerto do PHPMYADMIN  para a ${instancia_add}; Ex: 8080 ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " phpmyadmin_port
 }
@@ -76,7 +76,7 @@ get_phpmyadmin_port() {
 get_mysql_port() {
   
   print_banner
-  printf "${WHITE} 💻 Digite a porta MYSQL para ${instancia_add}; Ex: 3306 (3306, 3307...) ${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Digite a puerto MYSQL para ${instancia_add}; Ex: 3306 (3306, 3307...) ${GRAY_LIGHT}"
   printf "\n\n"
   read -p "> " mysql_port
 }
@@ -107,8 +107,8 @@ inquiry_options() {
   print_banner
   printf "${WHITE} 💻 bienvenido seleccione una opcion !${GRAY_LIGHT}"
   printf "\n\n"
-  printf "   [1] Instalar o whasapo\n"
-  printf "   [2] Atualizar o Press whasapo\n"
+  printf "   [1] Instalar whasapo\n"
+  printf "   [2] Atualizar whasapo\n"
   printf "\n"
   read -p "> " option
 
