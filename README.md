@@ -31,5 +31,10 @@ paso siguiente:
 cd && cd ./instalador && sudo ./install_instancia
 ```
 
+## comprame un cafe
+para seguir adelante con el proyecto [paypal] (https://www.paypal.me/Vitorinomarin).
+
+
+
 
 
